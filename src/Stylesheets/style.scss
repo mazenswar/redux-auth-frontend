@@ -1,0 +1,40 @@
+nav {
+  background-color: #eee;
+  padding: 1vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 40px;
+  background-color: #eee;
+  padding: 10vw;
+  h2 {
+    margin: 0;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    border: 0;
+    &:focus {
+      outline: 0;
+    }
+  }
+  input[type="submit"] {
+    margin: 1vw;
+    padding: 1vw;
+  }
+}
